@@ -1,0 +1,49 @@
+block {
+    width: 100%;
+    height: 100%;
+}
+#calculatorBody {
+    width: 200px;
+    height: 300px;
+    border: 8px ridge #803333;
+    background-color: #333333;
+    text-align: center;
+}
+#displaySection{
+    width: 100%;
+    height: 19%;
+    background-color: #aaaaaa;
+    margin: 2px;
+}
+.buttonRow{
+    width: 100%;
+    height: 15.5%;
+    background-color: #ffffff;
+    margin: 2px;
+}
+#displaySection{
+    width : 80%;
+    height : 25px;
+    background-color: #ffffff;
+    margin: 10px;
+    text-align: right;
+}
+.numberButton{
+    width: 20%;
+    height: 80%;
+    background-color: #000000;
+    float: left;
+    margin: 2%;
+    color: white;
+    font-size: 1.2em;
+    font-family: "Lucida Console", Verdana, Arial; 
+}
+#close{
+    float: right;
+    margin-right: 5%;
+    background-color: #cc0000;
+    width: 10%;
+    height: 50%;
+    font-size: .8em;
+    font-family: "Lucida Console", Verdana, Arial;
+}
